@@ -8,7 +8,12 @@ Full Featured Front Panel Interfacing Software for Raspberry Pi KODI Media Hub.
 
 ![GIF](MEDIA/BOOTING.gif)
 
-A Booting Splash Screen
+Booting Splash Screen
+
+
+![GIF](MEDIA/PLAYING.gif)
+
+Media Playing Display
 
 https://www.youtube.com/watch?v=txZ-rzmHm_8  Front Button Input
 
