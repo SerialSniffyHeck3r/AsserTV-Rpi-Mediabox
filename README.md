@@ -1,5 +1,7 @@
 # AsserTV: A Reinterpretation of Old School DVD Player Into This World
 
+![Screenshot](MEDIA/20260115_190857.jpg)
+
 Full Featured Front Panel Interfacing Software for Raspberry Pi KODI Media Hub.
 
 ## Backstory of this project
