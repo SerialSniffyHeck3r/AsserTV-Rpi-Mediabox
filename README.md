@@ -4,6 +4,12 @@
 
 Full Featured Front Panel Interfacing Software for Raspberry Pi KODI Media Hub.
 
+## Videos
+
+https://www.youtube.com/watch?v=txZ-rzmHm_8  Front Button Input
+
+
+
 ## Backstory of this project
 
 Do you remember those silver colored bulky DVD players that you had in 90s / early 00s?  
