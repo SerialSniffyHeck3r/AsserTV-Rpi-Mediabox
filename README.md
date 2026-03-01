@@ -12,6 +12,18 @@ A Booting Splash Screen
 
 https://www.youtube.com/watch?v=txZ-rzmHm_8  Front Button Input
 
+## AsserTV - 프론트 패널이 포함된 올인원 코디 미디어 박스: 한국어 설명
+
+80년대 후반의 VHS / LD Player부터 이어져 내려오는, 전통적인 검은 박스 모양에 커다란 VFD 화면이 붙어 있고 텔레비전 또는 오디오장 안에 있던 고급 가전이었던 가졍용 AV 장치는,
+어린 시절부터 본인의 심금을 울리기 시작했습니다. 왠지는 모릅니다. 아직도 마찬가지입니다.
+
+해당 제품들의 공통점이라면, 전면부에 커다란 디스플레이가 포함되어 있어 TV를 켜지 않아도 음악 재생과 같은 단순한 기능부터 예약 녹화와 같은 고급 기능까지 프론트 패널로 제어가 가능했습니다.
+
+그러나, 00년대 중후반 이후부터 셋톱박스는 점차 네트워크에 연결되고 다양한 기능들이 추가되며, 기술의 발전 및 미니멀리즘의 영향을 받아 기기는 점차 작아지고 어느새 아예 보이지조차 않게 되었습니다.
+
+해당 프로젝트는, 과거의 프론트 패널을 갖춘 미디어 기기를 2025년의 기기에 맞게 재해석하여 KODI 기반 멀티미디어 플레이어에 프론트 패널 엔진을 얹는 프로젝트입니다. 
+
+LCDProc은 굉장히 못생겼으며 UI 설계에 있어 제약점이 많아, 아에 처음부터 코드를 새로 만드는 것을 선택했습니다.
 
 
 ## Backstory of this project
@@ -35,6 +47,9 @@ Lots of character LCDs are in my parts stock, and I especially loved one with 20
 Rpi has GPIOs, and this is one of the reasons people choose Rpi over other boards.  
 At this point, I am determined. Hell yeah.
 
+Maybe I can use LCDProc, but I choosed to code everything from scratch. 
+Main reason of this choice was that LCDProc looks **EXTREMELY UGLY**
+
 The main goal of this project is **to reinterpret the old school hardware design**. 
 
 ---
@@ -51,8 +66,9 @@ This repo contains a small C program that turns a Raspberry Pi running KODI into
 The program talks to KODI over JSON-RPC and mirrors part of the player state on the LCD,  
 while letting you control volume and (later) playback using the front panel.
 
-This is a hobby project. I am mainly an embedded systems guy, not a Linux user-space guru,  
+This is a hobby project. I am mainly an embedded systems guy, not a Linux guru,  
 so expect a “works for me, hackable” style rather than a production-grade daemon.
+
 
 ---
 
